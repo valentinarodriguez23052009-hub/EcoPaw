@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Your Tech Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>🛍️ TechStore</h1>
+            <p class="tagline">Your One-Stop Shop for Quality Tech Products</p>
+        </div>
+    </header>
+
+    <!-- Description Section -->
+    <section class="description">
+        <div class="container">
+            <h2>Welcome to TechStore</h2>
+            <p>We pride ourselves on offering the highest quality tech products at unbeatable prices. Whether you're looking for the latest gadgets, accessories, or electronics, TechStore is your destination for all things tech. Shop with confidence knowing you're getting authentic products with excellent customer service.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">⭐</span>
+                    <h3>Premium Quality</h3>
+                    <p>All products are authentic and tested for quality assurance</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🚚</span>
+                    <h3>Fast Shipping</h3>
+                    <p>Quick delivery to your doorstep within 2-3 business days</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔒</span>
+                    <h3>Secure Payment</h3>
+                    <p>Safe and encrypted payment options for your peace of mind</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">↩️</span>
+                    <h3>Easy Returns</h3>
+                    <p>30-day money-back guarantee with hassle-free returns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">🎧</div>
+                    <h3>Wireless Earbuds Pro</h3>
+                    <p class="product-description">Premium wireless earbuds with noise cancellation and 24-hour battery life.</p>
+                    <div class="product-specs">
+                        <span>Active Noise Cancellation</span>
+                        <span>24hr Battery</span>
+                        <span>Premium Sound</span>
+                    </div>
+                    <div class="product-footer">
+                        <span class="price">$79.99</span>
+                        <button class="buy-btn" onclick="addToCart('Wireless Earbuds Pro', 79.99)">Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">🔌</div>
+                    <h3>Fast Charging Power Bank</h3>
+                    <p class="product-description">50000mAh power bank with super-fast charging technology and dual USB ports.</p>
+                    <div class="product-specs">
+                        <span>50000mAh Capacity</span>
+                        <span>Fast Charging</span>
+                        <span>Dual USB Ports</span>
+                    </div>
+                    <div class="product-footer">
+                        <span class="price">$49.99</span>
+                        <button class="buy-btn" onclick="addToCart('Fast Charging Power Bank', 49.99)">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TechStore. All rights reserved.</p>
+            <p>Quality Tech Products at Great Prices</p>
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div class="cart-notification" id="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
